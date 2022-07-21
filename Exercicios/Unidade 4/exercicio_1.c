@@ -9,16 +9,11 @@ com as seguintes opções:
 4. Ordenar os livros por ano.
 5. Sair do programa.
 
-No Quadro 11, temos o programa para o problema descrito. Na solução, empre-
-gamos o conceito de struct para criar a ficha do livro, vetor de struct para
-armazenar as informações dos 20 livros, o método de pesquisa sequencial para
-efetuar a busca de um livro por código e o método de ordenação da bolha para
-classificar os livros de acordo com o ano.
 */
 #include <stdio.h>
 #include <stdlib.h>
 
-#define TAM 20
+#define TAM 1 // Alterar pra 20
 
 struct livro
 {
@@ -47,26 +42,26 @@ void resolucaoExercicioUm()
         fflush(stdin);
         if (op == 1)
         {
-            system("cls");
+            system("clear");
             for (i = 0; i < TAM; i++)
             {
                 printf("Digite o cádigo do livro da posição %d:", i + 1);
                 scanf("%d", &ficha[i].codigo);
                 fflush(stdin);
                 printf("Digite o título do livro: ");
-                scanf("%50[^\n]s", &ficha[i].titulo);  //Entender essa notação
+                scanf("%50[^\n]s", ficha[i].titulo);  //Entender essa notação 
                 fflush(stdin);
                 printf("Digite o nome do autor: ");
-                scanf("%30[^\n]s", &ficha[i].autor);  //Entender essa notação
+                scanf("%30[^\n]s", ficha[i].autor);  //Entender essa notação "%30[^\n]s"
                 fflush(stdin);
                 printf("Digite a área do livro: ");
-                scanf("%30[^]s", &ficha[i].area);  //Entender essa notação
+                scanf("%30[^\n]s", ficha[i].area);  //Entender essa notação
                 fflush(stdin);
                 printf("Digite o ano: ");
                 scanf("%d", &ficha[i].ano);
                 fflush(stdin);
                 printf("Digite o nome da editora: ");
-                scanf("%30[^\n]s", &ficha[i].editora);  //Entender essa notação
+                scanf("%30[^\n]s", ficha[i].editora);  //Entender essa notação
                 fflush(stdin);
             }
         }
