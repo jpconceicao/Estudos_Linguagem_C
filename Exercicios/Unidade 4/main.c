@@ -5,6 +5,7 @@
 #include "exercicio_3.c"
 #include "exercicio_7.c"
 #include "exercicio_8.c"
+#include "proposto_1.c"
 
 int main()
 {
@@ -13,7 +14,7 @@ int main()
     scanf("%19[^\n]s", frase);
     printf("%s \n", frase);
     */
-    resolucaoExercicioOito();
+    printf("Criar menu de seleção!\n");
 
     return 0;
 }

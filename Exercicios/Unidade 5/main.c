@@ -1,16 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include "exercicio_6.c"
-#include "exercicio_8.c"
-#include "proposto_1.c"
+#include "exemplo_pag160.c"
+#include "exemplo_pag162.c" //Corrigir de gets para fgets, pois não compila!
+#include "exemplo_pag163.c"
 #include "proposto_7.c"
-#include "proposto_8.c"
-
-
 
 int main()
 {
     printf("Criar menu de seleção!\n");
+
     return 0;
 }
