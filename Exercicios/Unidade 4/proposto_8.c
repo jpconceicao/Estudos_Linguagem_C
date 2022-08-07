@@ -16,7 +16,7 @@ typedef struct dados
     char email[N];
 } cadastro;
 
-void resolucaoPropostoOito()
+void proposto_8()
 {
     cadastro cadastros[maxim];
     int i;

@@ -14,7 +14,7 @@ typedef struct dados
     float media;
 } cadastro;
 
-void resolucaoPropostoSeis()
+void proposto_6()
 {
     cadastro boletim[5];
     cadastro boletimTmp;

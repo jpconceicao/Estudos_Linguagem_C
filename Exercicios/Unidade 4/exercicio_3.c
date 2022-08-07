@@ -5,7 +5,7 @@ soma dos dois vetores em um vetor C e imprima o vetor C em ordem crescente.
 
 #include <stdio.h>
 
-void resolucaoExercicioTres()
+void exercicio_3()
 {
     int vetorA[30], vetorB[30], vetorC[30];
     int i, j, troca;

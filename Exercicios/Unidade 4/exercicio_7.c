@@ -5,7 +5,7 @@ a média de cada aluno e a média da turma.
 
 #include <stdio.h>
 #define TAMANHO 20
-void resolucaoExercicioSete()
+void exercicio_7()
 {
     float media[TAMANHO];
     float notas[TAMANHO][4];

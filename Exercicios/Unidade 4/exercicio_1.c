@@ -24,7 +24,7 @@ struct livro
     int ano;
     char editora[30];
 };
-void resolucaoExercicioUm()
+void exercicio_1()
 {
     struct livro ficha[TAM];
     struct livro troca;

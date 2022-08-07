@@ -8,7 +8,7 @@ uma palavra e, se ela tiver número ímpar de caracteres, imprima todas as suas 
 #include <string.h>
 #define maximo 10
 
-void resolucaoPropostoTres()
+void proposto_3()
 {
     char palavra[maximo];
     int i;

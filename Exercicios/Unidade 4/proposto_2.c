@@ -7,7 +7,7 @@ ordem decrescente.
 
 #include <stdio.h>
 
-void resolucaoPropostoDois()
+void proposto_2()
 {
     int vetor[3], i, j, aux;
     for (i = 0; i < 3; i++) // inicializacao

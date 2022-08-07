@@ -5,7 +5,7 @@ e viúvas. Apresente a média de idade e de peso. O algoritmo finaliza quando fo
 informado o valor zero para idade.
 */
 
-void resolucaoPropostoOito()
+void proposto_8()
 {
     int idade, sexo, est_Civil, q_Casadas, quantidade;
     int q_Solteiras, q_Separadas, q_Viuvas;

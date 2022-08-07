@@ -6,7 +6,7 @@ informado o valor -1 para o salário. Apresente a média de salário da populaç
 a média de filhos e o maior salário.
 */
 
-void resolucaoExercicioSeis()
+void exercicio_6()
 {
     int filhos, npessoas;
     float salario, somas, somaf, msalario;

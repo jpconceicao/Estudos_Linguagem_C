@@ -16,7 +16,7 @@ struct funcionario
     float salario;
 };
 
-void resolucaoExercicioOito()
+void exercicio_8()
 {
     struct funcionario ficha[tam];
     int busca, i, acha;

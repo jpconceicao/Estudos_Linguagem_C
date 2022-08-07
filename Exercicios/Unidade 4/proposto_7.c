@@ -17,7 +17,7 @@ typedef struct dados
     int ano;
 } livro;
 
-void resolucaoPropostoSete()
+void proposto_7()
 {
     livro livros[maxi];
     int i;

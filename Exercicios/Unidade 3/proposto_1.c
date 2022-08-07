@@ -5,7 +5,7 @@ pares e ímpares.
 */
 #include <math.h>
 
-void resolucaoPropostoUm()
+void proposto_1()
 {
     int numero, soma, quantidade, maior, menor, pares;
     int impares;

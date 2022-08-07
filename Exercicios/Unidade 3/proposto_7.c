@@ -5,7 +5,7 @@ e quantidade. A entrada de pedidos é encerrada quando o usuário informa zero
 como número do pedido.
 */
 
-void resolucaoPropostoSete()
+void proposto_7()
 {
     int pedido, dia, mes, ano, quantidade;
     float preco_Unit, preco_Total;

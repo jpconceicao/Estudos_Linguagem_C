@@ -6,7 +6,7 @@ opinaram como satisfatório, e o número de clientes que responderam insatisfat�
 O programa se encerra quando for digitado o valor zero para idade.
 */
 
-void resolucaoExercicioOito()
+void exercicio_8()
 {
 
     int idade, npessoas, npessoasi;

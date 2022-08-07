@@ -6,7 +6,7 @@ Dessa forma, faça um programa que leia dois vetores A e B e apresente a quantid
 #include <stdio.h>
 #define max 5
 
-void resolucaoPropostoUm()
+void proposto_1()
 {
     int i, j, iguais, vet_A[max], vet_B[max];
     for (i = 0; i < max; i++) // inicializacao

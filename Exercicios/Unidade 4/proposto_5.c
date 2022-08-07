@@ -7,7 +7,7 @@ soma e a diferença entre elas.
 
 #include <stdio.h>
 
-void resolucaoPropostoCinco()
+void proposto_5()
 {
     int matriz_A[5][5], matriz_B[5][5], i, j, k;
     printf("\nMatriz A\n");
